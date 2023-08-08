@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+PUFbe5t6oZE7wgm/nuRN7WQKyFGCSUe+wjPg45kN4U7Da611x5fycx+UJjuoGCLSf+W+9K8YpBkrZKDzR1q/Q==",
+  "success": true,
+  "projectFilePath": "D:\\Architectures\\CleanArchitecture\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

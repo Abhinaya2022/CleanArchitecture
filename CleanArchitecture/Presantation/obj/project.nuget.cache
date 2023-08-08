@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SsoV8jbAbC/RJHbIw9l0C8Euc6/7p4Bl6VwJMTTEPHmSJEQp0/lFjjriGDiOzQfSsArSfB8LHRCDL0tP39w5Lw==",
+  "success": true,
+  "projectFilePath": "D:\\Architectures\\CleanArchitecture\\Presantation\\Presantation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rahulkumar.yadav\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

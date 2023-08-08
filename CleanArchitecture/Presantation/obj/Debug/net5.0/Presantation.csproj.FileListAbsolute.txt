@@ -1,0 +1,12 @@
+D:\Architectures\CleanArchitecture\Presantation\bin\Debug\net5.0\Presantation.deps.json
+D:\Architectures\CleanArchitecture\Presantation\bin\Debug\net5.0\Presantation.dll
+D:\Architectures\CleanArchitecture\Presantation\bin\Debug\net5.0\ref\Presantation.dll
+D:\Architectures\CleanArchitecture\Presantation\bin\Debug\net5.0\Presantation.pdb
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.csproj.AssemblyReference.cache
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.AssemblyInfoInputs.cache
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.AssemblyInfo.cs
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.csproj.CoreCompileInputs.cache
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.dll
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\ref\Presantation.dll
+D:\Architectures\CleanArchitecture\Presantation\obj\Debug\net5.0\Presantation.pdb

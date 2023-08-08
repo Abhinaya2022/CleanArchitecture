@@ -1,0 +1,12 @@
+D:\Architectures\CleanArchitecture\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+D:\Architectures\CleanArchitecture\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+D:\Architectures\CleanArchitecture\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+D:\Architectures\CleanArchitecture\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+D:\Architectures\CleanArchitecture\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb

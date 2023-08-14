@@ -35,42 +35,82 @@ namespace CrudWithDapper.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetStudent(int id)
+        public async Task<IActionResult> GetStudent(int rollNumber)
         {
-            var student = await _dbConnection.QuerySingleOrDefaultAsync<Students>("SELECT * FROM Master.StudentInfoTable WHERE RollNumber = @Id", new { Id = id });
+            try
+            {
+                var student = await _dbConnection.QuerySingleOrDefaultAsync<Students>("SELECT * FROM Master.StudentInfoTable WHERE RollNumber = @RollNumber", new { RollNumber = rollNumber });
 
-            if (student == null)
-                return NotFound();
+                if (student == null)
+                    return NotFound();
 
-            return Ok(student);
+                return Ok(student);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateStudent(Students student)
         {
-            const string sql = "INSERT INTO Master.StudentInfoTable (Name, Location) VALUES (@Name, @Location)";
-            await _dbConnection.ExecuteAsync(sql, student);
+            try
+            {
+                const string sql = "INSERT INTO Master.StudentInfoTable (Name, Location,Email,PhoneNumber,DOB) VALUES (@Name, @Location, @Email, @PhoneNumber, @DOB)";
+                await _dbConnection.ExecuteAsync(sql, student);
 
-            return CreatedAtAction(nameof(GetStudent), new { id = student.RollNumber }, student);
+                return CreatedAtAction(nameof(GetStudent), new { id = student.RollNumber }, student);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateStudent(int id, Students student)
+        public async Task<IActionResult> UpdateStudent(int rolNumber, Students student)
         {
-            student.RollNumber = id;
-            const string sql = "UPDATE Master.StudentInfoTable SET Name = @Name, Location = @Location WHERE RollNumber = @RollNumber";
-            await _dbConnection.ExecuteAsync(sql, student);
+            try
+            {
+                student.RollNumber = rolNumber;
+                const string sql = "UPDATE Master.StudentInfoTable" +
+                                                                 "SET " +
+                                                                 "Name = @Name," +
+                                                                 "Location = @Location" +
+                                                                 "PhoneNumber = @PhoneNumber" +
+                                                                 "Email = @Email" +
+                                                                 "DOB = @DOB" +
+                                                                 " WHERE RollNumber = @RollNumber";
+                await _dbConnection.ExecuteAsync(sql, student);
 
-            return NoContent();
+                return NoContent();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStudent(int id)
         {
-            const string sql = "DELETE FROM Master.StudentInfoTable WHERE RollNumber = @Id";
-            await _dbConnection.ExecuteAsync(sql, new { Id = id });
+            try
+            {
 
-            return NoContent();
+                const string sql = "DELETE FROM Master.StudentInfoTable WHERE RollNumber = @Id";
+                await _dbConnection.ExecuteAsync(sql, new { Id = id });
+
+                return NoContent();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
     }
